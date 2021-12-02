@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "AOC2021"
+version = "0.1.0"
+description = "AOC 2021"
+authors = ["ciaranmccormick@gmail.com"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+ipython = "^7.30.0"
+ipdb = "^0.13.9"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
